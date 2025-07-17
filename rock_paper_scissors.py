@@ -39,10 +39,10 @@ if number1==number2:
 elif number1<1 or number1>2:
     print("Please enter a valid number between 1 to 3")
 elif number1==3 and number2==1 :
-    print("You Lost")
+    print("💥 You Lost!")
 elif number1==1 and number2==3:
-    print("You Win")
+    print("🎉 You Win!")
 elif number1<number2:
-    print("You Lost")
+    print("💥 You Lost!")
 elif number1>number2:
-    print("You Win")
+    print("🎉 You Win!")
